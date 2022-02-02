@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Klee+One&display=swap");
+@font-face {
+    font-family: Comforter;
+    src: url(../fonts/ComforterBrush-Regular.woff2) format("woff2"),
+        url(../fonts/ComforterBrush-Regular.woff) format("woff");
+}
+@font-face {
+    font-family: Pacifico;
+    src: url(../fonts/Pacifico-Regular.woff2) format("woff2"), url(../fonts/Pacifico-Regular.woff) format("woff");
+}
+@font-face {
+    font-family: "Reggae One";
+    src: url(../fonts/BadScript-Regular.woff2) format("woff2"), url(../fonts/BadScript-Regular.woff.woff) format("woff");
+}
+@font-face {
+    font-family: "Bad Script";
+    src: url(../fonts/ReggaeOne-Regular.woff2) format("woff2"), url(../fonts/ReggaeOne-Regular.woff) format("woff");
+}
+@font-face {
+    font-family: "Bad Script";
+    src: url(../fonts/PressStart2P-Regular.woff2) format("woff2"),
+        url(../fonts/PressStart2P-Regular.woff) format("woff");
+}
+@font-face {
+    font-family: "Bad Script";
+    src: url(../fonts/AmaticSC-Regular.woff2) format("woff2"), url(../fonts/AmaticSC-Regular.woff) format("woff");
+}
+
+[class*="-title"] {
+    text-shadow: 10px 10px 10px #000;
+    color: orange;
+    font-size: 35px;
+    text-decoration: underline;
+    line-height: 1.5;
+}
+[class*="-text"] {
+    text-shadow: 10px 10px 10px #000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.625;
+}
+.header {
+    text-align: center;
+}
+.header-title {
+    font-family: "Cormorant Infant", serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 45px;
+    line-height: 1.3;
+}
+.header-link {
+    font-family: "Marck Script", cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(170, 105, 44);
+    text-decoration: underline;
+}
+.body-section01 {
+    font-family: Comforter;
+    text-align: right;
+    color: rgb(95, 65, 37);
+    letter-spacing: 10px;
+}
+.body-section02 {
+    font-family: Pacifico;
+    color: rgb(56, 39, 22);
+    word-spacing: 20px;
+}
+
+.body-section03 {
+    font-family: "Reggae One";
+    text-align: right;
+    color: rgb(65, 35, 8);
+}
+#text-through {
+    text-decoration: line-through;
+}
+.body-section04 {
+    font-family: "Klee One", cursive;
+    color: rgb(182, 155, 130);
+}
+.body-section05 {
+    font-family: "Klee One", cursive;
+    text-transform: lowercase;
+    text-align: right;
+    color: rgb(49, 33, 18);
+}
+.body-section06 {
+    font-family: "Amatic SC", cursive;
+    text-transform: capitalize;
+    color: rgb(243, 140, 44);
+    white-space: pre-line;
+}
